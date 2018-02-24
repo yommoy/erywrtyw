@@ -64,7 +64,7 @@ body {
 
 /* 滚动区域-开始 */
 .scrollArea {
-	overflow-y: auto;
+	overflow: hidden;
 }
 /* 表单部分-开始 */
 .input-box {
