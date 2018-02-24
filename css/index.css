@@ -1,0 +1,205 @@
+/* 全局 */
+body {
+	margin: 0;
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+.top-fixed {
+	height: 20%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+
+/* 宣传图部分-开始 */
+.banner {
+	width: 100%;
+	height: 60%;
+	background-color: #9B9B9B;
+	color: #fff;
+	padding-top: 1px;
+}
+.banner span {
+	display: block;
+	font-size: 1em;
+	margin-left: 5%;
+	margin-top: 6%;
+}
+/* 宣传图部分-结束 */
+
+
+/* 选项卡部分-开始 */
+.nav-tab {
+	height: 40%;
+}
+.nav-tab .tab-unit {
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	color: #999;
+	height: 100%;
+	background-color: #fff;
+	position: relative;
+}
+.nav-tab .tab-unit span {
+	display: inline-block;
+}
+.nav-tab .tab-unit.active {
+	border-bottom: 2px solid #2FD5A9;;
+	color: #444;
+}
+.nav-tab .spit {
+	position: absolute;
+	display: inline-block;
+	height: 80%;
+	top: 10%;
+	right: 0;
+	width: 1px;
+	background-color: #ccc;
+}
+/* 选项卡部分-结束 */
+
+/* 滚动区域-开始 */
+.scrollArea {
+	overflow-y: auto;
+}
+/* 表单部分-开始 */
+.input-box {
+	background-color: #fff;
+	position: relative;
+}
+.border-box {
+	position: absolute;
+	left: 3.5%;
+	top: 35%;
+	width: 3.8%;
+	border: 1px solid #4a4a4a;
+	border-radius: 3px;
+}
+.border-box span {
+	display: block;
+	width: 70%;
+	height: 70%;
+	margin: 15%;
+	border-radius: 2px;
+}
+.border-box.green span {
+	background-color: #2FD5A9;
+}
+.border-box.red span {
+	background-color: #FF9D8A;
+}
+.form-box .line {
+	width: 1px;
+	background-color: #4a4a4a;
+	position: absolute;
+	z-index: 9999;
+	height: 30px;
+	left: 5.6%;
+}
+.input-box input {
+	border: none;
+	margin-left: 12%;
+	width: 88%;
+	height: 95%;
+	outline: none;
+	font-size: 0.9em;
+	color: #444;
+	border-bottom: 1px solid #f0f0f0;
+	min-height: 30px;
+}
+.input-box:last-child input {
+	border: none;
+}
+.input-box img {
+	width: 5%;
+	position: absolute;
+	left: 3.5%;
+	top: 30%;
+}
+.input-box input::-webkit-input-placeholder{
+    color: #aaa;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #aaa;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color: #aaa;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color: #aaa;
+}
+
+.select-box {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #fff;
+}
+.select-box .left-area {
+	width: 25%;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+}
+.select-box .left-area img {
+	width: 30%;
+	vertical-align: middle;
+}
+.select-box .right-area {
+	width: 25%;
+	float: right;
+	text-align: center;
+	font-size: 0.8em;
+	color: #aaa;
+}
+.select-box .right-area img {
+	width: 22%;
+	vertical-align: middle;
+}
+.btn-box {
+	width: 100%;
+	margin-top: 5%;
+	text-align: center;
+}
+.btn-box button {
+	width: 90%;
+	height: 65%;
+	background-color: #2FD5A9;
+	border-radius: 4px;
+	font-size: 1.1em;
+	color: #fff;
+	border: none;
+	min-height: 30px;
+}
+/* 表单部分-结束 */
+/* 滚动区域-结束 */
+
+/* 菜单部分-开始 */
+.menu {
+	height: 9%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.menu .menu-tab {
+	width: 33%;
+	float: left;
+	height: 100%;
+	text-align: center;
+	border-top: 1px solid #bfbfbf;
+	border-right: 1px solid #bfbfbf;
+	color: #494949;
+	font-size: 1em;
+}
+.menu .menu-tab:last-child {
+	border-right: none;
+}
+.menu .menu-tab img {
+	width: 25%;
+	text-align: center;
+	vertical-align: middle;
+}
+/* 菜单部分-结束 */
