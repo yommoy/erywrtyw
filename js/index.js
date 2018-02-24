@@ -22,9 +22,11 @@ function contentH(){
 	//计算输入框高度
 	var inputH = bodyH*0.1;
 	$(".input-box").height(inputH);
+	$(".input-box input").height(inputH-1);
 	$(".select-box").height(inputH);
 	$(".select-box div").css("line-height",inputH+"px");
 	$(".btn-box").height(inputH);
+
 
 	//计算输入框图标的高度
 	var borderBoxH = $(".border-box").width();
