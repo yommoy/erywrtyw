@@ -4,6 +4,9 @@ body {
 	background-color: #f4f4f4;
 	overflow: hidden;
 }
+html {
+	overflow: hidden;
+}
 .top-fixed {
 	height: 20%;
 	width: 100%;
@@ -98,7 +101,6 @@ body {
 	width: 1px;
 	background-color: #4a4a4a;
 	position: absolute;
-	z-index: 9999;
 	height: 30px;
 	left: 5.6%;
 }
