@@ -116,7 +116,7 @@ html {
 	min-height: 30px;
 }
 .form-box .input-box:last-child input {
-	border: none;
+	border-bottom: none;
 }
 .input-box img {
 	width: 5%;
